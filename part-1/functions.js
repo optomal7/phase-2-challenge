@@ -26,7 +26,7 @@ function snippet(string, maxLength) {
   }
 }
 
-numProps(obj) {
+function numProps(obj) {
   if (typeof obj === 'object') {
     return Object.keys(obj).length;
   } else {
@@ -34,7 +34,7 @@ numProps(obj) {
   }
 }
 
-filterBetween(array, min, max) {
+function filterBetween(array, min, max) {
   var answer = [];
   if (typeof array !== 'array' || typeof min !== 'number' || typeof max !== 'number') {
     return 'invalid input attempt';
