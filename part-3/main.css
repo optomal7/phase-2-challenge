@@ -1,0 +1,54 @@
+header {
+  border-style: solid;
+}
+
+header button {
+  float: right;
+}
+h2 {
+  padding-left: 20px;
+}
+
+
+Quick one from me, check it out. You should at least have tried yourself, but I wasn't doing much so that's why I made something.
+
+HTML:
+
+<div id="left">Side menu</div>
+<div id="right">Scroll
+  <br />Scroll
+  <br />Scroll
+</div>
+CSS:
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-size: 20px;
+}
+#left {
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  outline: 1px solid;
+}
+#right {
+  width: 79%;
+  height: auto;
+  outline: 1px solid;
+  position: absolute;
+  right: 0;
+}
+
+#right button {
+  float: right;
+  margin-right: 20px;
+}
+
+#right .price {
+  float: right;
+  padding-right: 30px;
+}
+.topper {
+  background-color: grey;
+}
