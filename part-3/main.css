@@ -9,18 +9,6 @@ h2 {
   padding-left: 20px;
 }
 
-
-Quick one from me, check it out. You should at least have tried yourself, but I wasn't doing much so that's why I made something.
-
-HTML:
-
-<div id="left">Side menu</div>
-<div id="right">Scroll
-  <br />Scroll
-  <br />Scroll
-</div>
-CSS:
-
 html, body {
   height: 100%;
   margin: 0;
